@@ -58,7 +58,8 @@ const Menu: React.FC<IMenuProps> = ({ onUpdateMenuHeight, onMobileSidebarOpen })
         <Image
           p={0}
           display={{ base: 'none', lg: 'block' }}
-          src="/images/METARUN.png"
+          src="/images/metarun.png"
+          fallbackSrc="/images/metarun.png"
           alt="METARUN Logo"
           h={{ base: '60px', lg: '60px' }}
           // w={{ base: '120px', lg: '200px' }}

@@ -57,7 +57,7 @@ const Sidebar: React.FC<ISidebarProps> = ({ isMobileSidebarOpen, onMobileSidebar
         <DrawerOverlay />
         <DrawerContent bg="black">
           <DrawerHeader>
-            <Image p={2} mx="auto" src="/images/METARUN.png" alt="METARUN Logo" h="60px" />
+            <Image p={2} mx="auto" src="/images/metarun.png" fallbackSrc="/images/metarun.png" alt="METARUN Logo" h="60px" />
           </DrawerHeader>
           <DrawerCloseButton color="white" />
           <DrawerBody display="flex" flexDirection="column">

@@ -16,7 +16,7 @@ function Staking({ allV2PairsWithLiquidity }) {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
     <Container maxW="container.xl">
-      <SectionTitle title="$MRUN V1 Staking" caption="Turn Your Idle $MRUN Tokens into a Money Printer…" />
+      <SectionTitle title="$MRUN V1 Staking" caption="Put Your Idle $MRUN to Work" />
       {allV2PairsWithLiquidity.length > 0 &&
         allV2PairsWithLiquidity.map((v2Pair) => (
           <FullPositionCard key={v2Pair.liquidityToken.address} pair={v2Pair} mb="16px" />

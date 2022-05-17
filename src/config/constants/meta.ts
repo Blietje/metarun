@@ -57,7 +57,7 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/stake':
       return {
-        title: `${t('Stake')} | ${t('Metarun')}`,
+        title: `${t('Metarun')} | ${t('Staking')}`,
       }
     case '/lp-farm':
       return {
